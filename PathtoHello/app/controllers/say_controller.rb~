@@ -1,2 +1,0 @@
-class SayController < ApplicationController
-end
