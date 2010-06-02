@@ -1,0 +1,27 @@
+
+
+Processing SayController#hello (for 127.0.0.1 at 2010-06-02 13:53:46) [GET]
+Rendering say/hello
+Completed in 37ms (View: 36, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#index (for 127.0.0.1 at 2010-06-02 13:55:07) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: Hello):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2010-06-02 13:56:36) [GET]
+Rendering say/hello
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/say/hello]
